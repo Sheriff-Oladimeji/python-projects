@@ -7,3 +7,5 @@ Sheriff.getBalance()
 Dave.getBalance()
 
 Sheriff.deposit(250)
+Dave.withdraw(20000)
+Dave.withdraw(67)

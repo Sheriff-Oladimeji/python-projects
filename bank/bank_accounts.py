@@ -25,6 +25,8 @@ class BankAccount:
             self.viableTransaction(amount)
             self.balance = self.balance - amount
             print("\n Withdraw complete")
-        except:
+            self.getBalance()
+        except BalanceException as error:
+            print(f"\nWithdraw interrupted: {error}")
         
         
